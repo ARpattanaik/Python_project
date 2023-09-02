@@ -102,3 +102,20 @@ class Factorial:
 obj = Factorial()
 obj.fact()
 
+
+class Factorial2:
+    fact = 1
+    gear = 0
+    print("Inside the class ")
+
+    def fact(self):
+         print("this is factorial function")
+
+    def display(self):
+        name="Test"
+        print("Inside the class function ")
+        # print("Name of the Bike: ", self.fact)
+
+
+obj = Factorial2()
+obj.fact()
